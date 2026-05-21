@@ -1,0 +1,49 @@
+# STM32 / Keil MDK .gitignore
+
+# IDE - JetBrains
+.idea/
+
+# STM32CubeMX user settings
+.mxproject
+
+# Keil MDK - user-specific settings
+*.uvguix.*
+
+# Keil MDK - build outputs
+*.hex
+*.bin
+*.elf
+*.axf
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.htm
+*.dep
+*.iex
+*.lnp
+*.plg
+*.bak
+*.ddl
+*.scvd
+*.uvgui.*
+JLinkLog.txt
+JLinkSettings.ini
+
+# Keil MDK - build output directories
+MDK-ARM/DebugConfig/
+MDK-ARM/EKF/
+MDK-ARM/RTE/
+
+# Keil MDK - listing directories
+MDK-ARM/*.build_log.htm
+Listings/
+Objects/
+
+# General
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
